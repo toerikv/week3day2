@@ -1,0 +1,73 @@
+a, h1, h2, h3, div, body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+.Line {
+    background-color: rgb(197, 113, 18);
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.Line h1 {
+    margin: 10px;
+    
+    color: #eee;
+  }
+  
+  #nav {    
+  }
+  
+  #nav a {
+    color: #eee;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+   
+  }
+  #AllBox {
+    padding-top: 100px;
+    background-color: #c5c3b8;
+    height: 1300px;
+    
+  }
+  .Box {
+
+    background-color: #eee;      
+    border: 1px solid rgb(201, 83, 15);
+    width: 200px;
+    border-radius: 5px;
+    margin: 20px;
+    display: inline-block;   
+  }
+  #Text {
+    
+    padding: 10px;
+    text-align: center;
+   
+  }
+  #Text p{
+
+    color: #0c0c0c;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: left;
+   
+
+  }
+  #Link {
+    background-color: rgb(197, 113, 18);
+    padding: 10px;
+    text-align: center;
+    margin: 10px; 
+  }
+  #Link a {
+    color: #eee;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 1px;
+  }
